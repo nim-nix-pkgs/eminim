@@ -11,7 +11,6 @@
   inputs.src-eminim-master.ref   = "refs/heads/master";
   inputs.src-eminim-master.owner = "planetis-m";
   inputs.src-eminim-master.repo  = "eminim";
-  inputs.src-eminim-master.dir   = "";
   inputs.src-eminim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
