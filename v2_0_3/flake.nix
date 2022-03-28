@@ -11,6 +11,7 @@
   inputs.src-eminim-v2_0_3.ref   = "refs/tags/v2.0.3";
   inputs.src-eminim-v2_0_3.owner = "planetis-m";
   inputs.src-eminim-v2_0_3.repo  = "eminim";
+  inputs.src-eminim-v2_0_3.dir   = "";
   inputs.src-eminim-v2_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
